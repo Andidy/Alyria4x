@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Hunting Camp",
+		"turnsToBuild": 5,
+		"production": 1,
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		]
+	},
+	{
+		"name": "Gathering Camp",
+		"turnsToBuild": 5,
+		"food": 1,
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		]
+	}
+]
