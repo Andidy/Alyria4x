@@ -10,7 +10,7 @@
 	},
 	{
 		"name": "Warrior",
-		"unitType": "Infantry",
+		"unitType": "Melee",
 		"movement": 5,
 		"strength": 10,
 		"range": 0,
@@ -20,7 +20,7 @@
 	},
 	{
 		"name": "Scout",
-		"unitType": "Infantry",
+		"unitType": "Melee",
 		"movement": 10,
 		"strength": 5,
 		"range": 0,
@@ -30,7 +30,7 @@
 	},
 	{
 		"name": "Rockthrower",
-		"unitType": "Infantry",
+		"unitType": "Ranged",
 		"movement": 5,
 		"strength": 5,
 		"range": 2,

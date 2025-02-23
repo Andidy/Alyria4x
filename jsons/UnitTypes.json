@@ -9,5 +9,12 @@
 		"uniques": [
 			"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
 		]
+	},
+	{
+		"name": "Ranged",
+		"movementType": "Land",
+		"uniques": [
+			"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+		]
 	}
 ]
