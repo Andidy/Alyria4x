@@ -1,18 +1,41 @@
 [
-    {
-        "name": "Settler",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
-    },
-    {
-		"name": "Rifleman",
-		"unitType": "Infantry",
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
 		"movement": 2,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Requires at least [2] population"
+		]
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Infantry",
+		"movement": 5,
+		"strength": 10,
+		"range": 0,
+		"rangedStrength": 0,
+		"cost": 30,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Scout",
+		"unitType": "Infantry",
+		"movement": 10,
 		"strength": 5,
-        "range": 2,
-		"rangedStrength": 7,
-		"cost": 40,
+		"range": 0,
+		"rangedStrength": 0,
+		"cost": 30,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Rockthrower",
+		"unitType": "Infantry",
+		"movement": 5,
+		"strength": 5,
+		"range": 2,
+		"rangedStrength": 5,
+		"cost": 30,
 		"attackSound": "shot"
 	}
 ]
