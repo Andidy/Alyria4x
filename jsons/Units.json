@@ -1,20 +1,32 @@
 [
+	// Civilian
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
-		"movement": 2,
+		"movement": 10,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
-			"Requires at least [2] population"
+			"Requires at least [2] population",
+			"Excess Food converted to Production when under construction"
 		]
 	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 5,
+		"cost": 60,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action",
+			"Excess Food converted to Production when under construction"
+		]
+	},
+	// Military
 	{
 		"name": "Warrior",
 		"unitType": "Melee",
 		"movement": 5,
 		"strength": 10,
-		"range": 0,
-		"rangedStrength": 0,
 		"cost": 30,
 		"attackSound": "shot"
 	},
@@ -23,8 +35,6 @@
 		"unitType": "Melee",
 		"movement": 10,
 		"strength": 5,
-		"range": 0,
-		"rangedStrength": 0,
 		"cost": 30,
 		"attackSound": "shot"
 	},

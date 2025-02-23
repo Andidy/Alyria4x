@@ -1,8 +1,26 @@
 [
-    {
-        "name": "discover cultural artifacts",
-        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
-        "uniques": ["Gain [20] [Culture]"],
-        "color": "#cf8ff7"
-    }
+	{
+		"name": "High amount of Gold",
+		"notification": "We have discovered a stash of ancient gold",
+		"uniques": [
+			"Gain [25]-[50] [Gold]"
+		],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "Some Gold",
+		"notification": "We have discovered a stash of ancient silver",
+		"uniques": [
+			"Gain [10]-[25] [Gold]"
+		],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "discover cultural artifacts",
+		"notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
+		"uniques": [
+			"Gain [20] [Culture]"
+		],
+		"color": "#cf8ff7"
+	}
 ]

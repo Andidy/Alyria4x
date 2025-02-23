@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Shrine",
+		"cost": 10,
+		"maintenance": 1,
+		"faith": 2
+	},
+	{
+		"name": "Communal Fire",
+		"cost": 10,
+		"maintenance": 1,
+		"culture": 2
+	}
+]
