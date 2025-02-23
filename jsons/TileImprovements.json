@@ -3,6 +3,9 @@
 		"name": "Hunting Camp",
 		"turnsToBuild": 5,
 		"production": 1,
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -13,6 +16,9 @@
 		"name": "Gathering Camp",
 		"turnsToBuild": 5,
 		"food": 1,
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",

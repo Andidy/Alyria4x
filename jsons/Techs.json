@@ -1,0 +1,38 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Stone Age",
+		"techCost": 50,
+		"techs": [
+			{
+				"name": "Flint knapping",
+				"row": 4,
+				"quote": "Here be Kira writing",
+				"uniques": [
+					"Starting tech"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Stone Age",
+		"techCost": 50,
+		"techs": [
+			{
+				"name": "Fishing",
+				"row": 1,
+				"prerequisites": [
+					"Flint knapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires flint knapping...",
+						"link": "Technologies/Stone Age"
+					}
+				]
+			}
+		]
+	}
+]

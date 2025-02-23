@@ -1,5 +1,13 @@
 [
 	{
+		"name": "CHEAT",
+		"cost": 0,
+		"maintenance": 1,
+		"culture": 1000,
+		"science": 1000,
+		"production": 1000
+	},
+	{
 		"name": "Shrine",
 		"cost": 10,
 		"maintenance": 1,
