@@ -1,11 +1,13 @@
 [
-    {
-        "name": "Civilian",
-        "movementType": "Land"
-    },
-    {
-        "name": "Infantry",
-        "movementType": "Land"
-    }
-    
+	{
+		"name": "Civilian",
+		"movementType": "Land"
+	},
+	{
+		"name": "Melee",
+		"movementType": "Land",
+		"uniques": [
+			"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+		]
+	}
 ]

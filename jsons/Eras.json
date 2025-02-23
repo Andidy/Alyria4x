@@ -2,9 +2,9 @@
 	{
 		"name": "Stone Age",
 		"researchAgreementCost": 150,
-		"startingSettlerCount": 3,
+		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
-		"startingMilitaryUnitCount": 3,
+		"startingMilitaryUnitCount": 1,
 		"startingMilitaryUnit": "Warrior",
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
