@@ -15,9 +15,9 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 5,
-		"cost": 60,
+		"cost": 30,
 		"uniques": [
-			"Can build [Land] improvements on tiles",
+			"Can instantly construct a [All] improvement <by consuming this unit>",
 			"Automation is a primary action",
 			"Never appears as a Barbarian unit"
 		]
@@ -26,7 +26,7 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 10,
-		"cost": 60,
+		"cost": 30,
 		"requiredTech": "Fishing",
 		"uniques": [
 			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",

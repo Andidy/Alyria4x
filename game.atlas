@@ -11,6 +11,13 @@ NationIcons/Adelle Corp
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Health
+  rotate: false
+  xy: 628, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/The New Movement
   rotate: false
   xy: 420, 4

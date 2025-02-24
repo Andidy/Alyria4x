@@ -3,8 +3,7 @@
 		"name": "CHEAT",
 		"cost": 0,
 		"maintenance": 1,
-		"culture": 1000,
-		"science": 1000,
+		"food": 1000,
 		"production": 1000
 	},
 	{
@@ -31,6 +30,37 @@
 			"Indicates the capital city",
 			"Moves to new capital when capital changes",
 			"Unsellable"
+		]
+	},
+	{
+		"name": "Rampart",
+		"cost": 20,
+		"gold": 1,
+		"maintenance": 0,
+		"cityStrength": 15,
+		"requiredTech": "Mining",
+		"uniques": [
+			"Unsellable"
+		]
+	},
+	{
+		"name": "Granary",
+		"cost": 50,
+		"gold": 1,
+		"maintenance": 2,
+		"requiredTech": "Pottery",
+		"uniques": [
+			"[50]% Food is carried over after population increases [in this city]",
+			"Provides [-1] [Health] <in this city>"
+		]
+	},
+	{
+		"name": "Apothecary",
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Herbalism",
+		"uniques": [
+			"Provides [3] [Health] <in this city>"
 		]
 	}
 ]

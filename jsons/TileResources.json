@@ -1,0 +1,32 @@
+[
+	// BONUS RESOURCES
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Coast",
+			"Ocean"
+		],
+		"food": 1
+	},
+	{
+		"name": "Wheat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Plains"
+		],
+		"food": 1
+	},
+	// CITY LEVEL RESOURCES
+	{
+		"name": "Health",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"City-level resource",
+			"Excluded from map editor",
+			"Not shown on world screen"
+		]
+	}
+]

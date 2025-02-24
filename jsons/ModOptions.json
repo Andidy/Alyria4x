@@ -1,1 +1,20 @@
-{"isBaseRuleset":true}
+{
+	"isBaseRuleset": true,
+	"constants": {
+		"cityStrengthBase": 5,
+		"cityStrengthPerPop": 0.05,
+		"cityStrengthFromTechsMultiplier": 1,
+		"cityStrengthFromTechsExponent": 1,
+		"cityStrengthFromGarrison": 0.05
+	},
+	"author": "Calandiel",
+	"topics": [
+		"unciv-mod",
+		"unciv-mod-rulesets"
+	],
+	"uniques": [
+		"Can only start games from the starting era",
+		"Cannot be used as permanent audiovisual mod",
+		"Can trade civilization introductions for [10] Gold"
+	]
+}

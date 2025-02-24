@@ -23,7 +23,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Production] <with [1] to [9] neighboring [Forest] tiles> <after discovering [Herbalism]>",
+			"[+1 Food] <with [1] to [9] neighboring [Forest] tiles> <after discovering [Herbalism]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		]
 	},
@@ -55,7 +55,7 @@
 		]
 	},
 	{
-		"name": "Irrigation",
+		"name": "Farm",
 		"turnsToBuild": 5,
 		"food": 2,
 		"techRequired": "Farming",
@@ -67,6 +67,7 @@
 		],
 		"uniques": [
 			"[+1 Food] <with [1] to [9] neighboring [Fresh water] tiles>",
+			"[+1 Food] <after discovering [Irrigation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
 	},
