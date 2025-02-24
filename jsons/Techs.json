@@ -103,6 +103,23 @@
 						"text": "Here be Kira writing"
 					}
 				]
+			},
+			{
+				"name": "Hazel domestication",
+				"row": 25,
+				"prerequisites": [
+					"Druidic Lore"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires druidic lore...",
+						"link": "Technologies/Druidic Lore"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
 			}
 		]
 	},

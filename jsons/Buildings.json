@@ -36,15 +36,39 @@
 		]
 	},
 	{
+		// Consolation price, I guess?
+		"name": "Sundial",
+		"isNationalWonder": true,
+		"cost": 0,
+		"gold": 1,
+		"maintenance": 0,
+		"requiredTech": "Astrology"
+	},
+	{
 		"name": "Stonehenge",
 		"cost": 100,
 		"faith": 8,
 		"maintenance": 0,
 		"isWonder": true,
+		"requiredTech": "Astrology",
 		"uniques": [
 			"Unsellable",
 			"Discover [Druidic Lore]"
-		]
+		],
+		"quote": "Here be Kira writing"
+	},
+	{
+		"name": "Bloodhenge",
+		"cost": 150,
+		"faith": -10,
+		"maintenance": 0,
+		"isWonder": true,
+		"requiredTech": "Astrology",
+		"uniques": [
+			"Unsellable",
+			"Discover [Blood Lore]"
+		],
+		"quote": "Here be Kira writing"
 	},
 	{
 		"name": "Rampart",

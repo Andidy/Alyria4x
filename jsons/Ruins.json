@@ -16,6 +16,14 @@
 		"color": "#ffeb7f"
 	},
 	{
+		"name": "discover ancient maps",
+		"notification": "We have discovered ancient maps in the ruins!",
+		"uniques": [
+			"From a randomly chosen tile [10] tiles away from the ruins, reveal tiles up to [20] tiles away with [50]% chance"
+		],
+		"color": "#cf8ff7"
+	},
+	{
 		"name": "discover cultural artifacts",
 		"notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
 		"uniques": [

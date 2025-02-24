@@ -1,5 +1,6 @@
 [
 	// BONUS RESOURCES
+	// WATER
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
@@ -7,15 +8,73 @@
 			"Coast",
 			"Ocean"
 		],
-		"food": 1
+		"food": 1,
+		"uniques": [
+			"[+2 Food] from [Fishing Boats] tiles [in all cities]"
+		]
 	},
+	// FARMABLES
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
 			"Plains"
 		],
-		"food": 1
+		"food": 1,
+		"uniques": [
+			"[+2 Food] from [Farm] tiles [in all cities]",
+			"[+2 Food] from [Irrigation] tiles [in all cities]",
+			"[+2 Food] from [Terrace] tiles [in all cities]"
+		]
+	},
+	// ANIMALS
+	{
+		"name": "Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Plains"
+		],
+		"food": 1,
+		"uniques": [
+			"[+2 Food] from [Hunting camp] tiles [in all cities]"
+		]
+	},
+	{
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Forest"
+		],
+		"food": 1,
+		"uniques": [
+			"[+3 Food] from [Hunting camp] tiles [in all cities]"
+		]
+	},
+	// MINES
+	{
+		"name": "Salt",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Hill",
+			"Tundra",
+			"Plains"
+		],
+		"food": 1,
+		"uniques": [
+			"[+2 Food] from [Mine] tiles [in all cities]"
+		]
+	},
+	{
+		"name": "Marble",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Hill"
+		],
+		"gold": 1,
+		"uniques": [
+			"[+2 Food] from [Mine] tiles [in all cities]",
+			"Provides [+1] [Stone] <in [Mine] tiles>"
+		]
 	},
 	// STOCKPILES
 	{

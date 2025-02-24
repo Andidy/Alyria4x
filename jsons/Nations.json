@@ -23,7 +23,7 @@
 		"uniqueName": "Sacred One's Blessings",
 		"uniques": [
 			"Starts with [Elven Lore]",
-			"[+2] Movement <for [Melee] units>"
+			"[+2] Movement <for [Ranged] units>"
 		],
 		"cities": [
 			"Wahtya",

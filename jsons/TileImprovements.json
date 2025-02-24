@@ -89,7 +89,7 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"food": 3,
+		"food": 4,
 		"techRequired": "Fishing",
 		"terrainsCanBeBuiltOn": [
 			"Coast"
