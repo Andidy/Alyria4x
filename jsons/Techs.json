@@ -178,7 +178,17 @@
 						"text": "Here be Kira writing"
 					}
 				]
-			}
+			},
+			{
+				"name": "Astral Lore",
+				"row": 45,
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
 		]
 	},
 	{

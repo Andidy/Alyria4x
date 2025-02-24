@@ -84,6 +84,7 @@
 		"cost": 50,
 		"requiredTech": "Trapping"
 	},
+	// Ranged
 	{
 		"name": "Stalker",
 		"unitType": "Ranged",
@@ -94,6 +95,19 @@
 		"requiredTech": "Elven archery",
 		"uniques": [
 			"Invisible to non-adjacent units"
+		]
+	},
+	// Navy
+	{
+		"name": "Curragh",
+		"unitType": "Navy",
+		"strength": 5,
+		"movement": 10,
+		"cost": 10,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Never appears as a Barbarian unit",
+			"Cannot enter ocean tiles"
 		]
 	}
 ]

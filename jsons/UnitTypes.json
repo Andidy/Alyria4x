@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Civilian Water",
-		"movementType": "Land",
+		"movementType": "Water",
 		"uniques": [
 			"Unable to capture cities",
 			"Cannot attack",
@@ -24,6 +24,14 @@
 		"movementType": "Land",
 		"uniques": [
 			"Unable to capture cities",
+			"[+4] Sight",
+			"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+		]
+	},
+	{
+		"name": "Navy",
+		"movementType": "Water",
+		"uniques": [
 			"[+4] Sight",
 			"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
 		]

@@ -1,0 +1,61 @@
+[
+	{
+		"name": "Bathem's Epic",
+		"type": "Pantheon",
+		"uniques": [
+			"[+20]% growth [in all cities]"
+		]
+	},
+	{
+		"name": "The Great Beyond",
+		"type": "Pantheon",
+		"uniques": [
+			"Discover [Blood Lore]",
+			"Discover [Astral Lore]",
+			"May buy [all] units with [Faith] for [2] times their normal Production cost",
+			"[-10 Gold, -10 Production, -10 Food] in cities on [all] tiles"
+		]
+	},
+	{
+		"name": "Call of the Many",
+		"type": "Pantheon",
+		"uniques": [
+			"May buy [Civilian] units with [Faith] for [2] times their normal Production cost"
+		]
+	},
+	{
+		"name": "Song of Aurora",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +2 Food] in cities on [Tundra] tiles"
+		]
+	},
+	{
+		"name": "Underbaum",
+		"type": "Pantheon",
+		"uniques": [
+			"[+25 Production] in cities on [Volcano] tiles"
+		]
+	},
+	{
+		"name": "Blessing of the Flesh",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food] per [3] population [in all cities]"
+		]
+	},
+	{
+		"name": "Blessing of the Dust",
+		"type": "Pantheon",
+		"uniques": [
+			"[+5 Gold] in cities on [Desert] tiles"
+		]
+	},
+	{
+		"name": "Blessing of the Forge",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production] per [3] population [in all cities]"
+		]
+	}
+]

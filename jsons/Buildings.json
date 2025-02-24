@@ -4,21 +4,23 @@
 		"cost": 0,
 		"maintenance": 1,
 		"food": 1000,
-		"production": 1000
+		"production": 1000,
+		"faith": 1000
 	},
 	{
 		"name": "Shrine",
-		"cost": 10,
+		"cost": 20,
 		"maintenance": 1,
 		"faith": 2
 	},
 	{
 		"name": "Communal Fire",
-		"cost": 10,
+		"cost": 20,
 		"maintenance": 1,
 		"culture": 2,
 		"uniques": [
-			"Can be purchased for [3] [Culture] [in all cities]"
+			// Just for debugging, kekw
+			// "Can be purchased for [3] [Culture] [in all cities]"
 		]
 	},
 	{
@@ -39,14 +41,14 @@
 		// Consolation price, I guess?
 		"name": "Sundial",
 		"isNationalWonder": true,
-		"cost": 0,
+		"cost": 10,
 		"gold": 1,
 		"maintenance": 0,
 		"requiredTech": "Astrology"
 	},
 	{
 		"name": "Stonehenge",
-		"cost": 100,
+		"cost": 200,
 		"faith": 8,
 		"maintenance": 0,
 		"isWonder": true,
@@ -59,7 +61,7 @@
 	},
 	{
 		"name": "Bloodhenge",
-		"cost": 150,
+		"cost": 300,
 		"faith": -10,
 		"maintenance": 0,
 		"isWonder": true,
@@ -72,7 +74,7 @@
 	},
 	{
 		"name": "Rampart",
-		"cost": 20,
+		"cost": 40,
 		"gold": 1,
 		"maintenance": 0,
 		"cityStrength": 15,
@@ -83,7 +85,7 @@
 	},
 	{
 		"name": "Granary",
-		"cost": 50,
+		"cost": 100,
 		"gold": 1,
 		"maintenance": 2,
 		"requiredTech": "Pottery",
@@ -94,11 +96,22 @@
 	},
 	{
 		"name": "Apothecary",
-		"cost": 50,
+		"cost": 100,
 		"maintenance": 1,
 		"requiredTech": "Herbalism",
 		"uniques": [
 			"Provides [3] [Health] <in this city>"
+		]
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 150,
+		"maintenance": 4,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Connects trade routes over water",
+			"[+2 Food] from [Water] tiles [in this city]",
+			"Only available <in [Coastal] cities>"
 		]
 	}
 ]
