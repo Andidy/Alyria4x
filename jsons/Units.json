@@ -3,11 +3,12 @@
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
-		"movement": 10,
+		"movement": 5,
 		"cost": 100,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
-			"Requires at least [2] population"
+			"Requires at least [2] population",
+			"Never appears as a Barbarian unit"
 		]
 	},
 	{
@@ -17,7 +18,21 @@
 		"cost": 60,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Automation is a primary action"
+			"Automation is a primary action",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 10,
+		"cost": 60,
+		"requiredTech": "Fishing",
+		"uniques": [
+			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",
+			"Never appears as a Barbarian unit",
+			"Cannot attack",
+			"Cannot enter ocean tiles"
 		]
 	},
 	// Military

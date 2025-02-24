@@ -22,6 +22,8 @@
 	{
 		"name": "Palace",
 		"cost": 1,
+		"food": 2,
+		"production": 2,
 		"maintenance": 0,
 		"isNationalWonder": true,
 		"cityStrength": 50,

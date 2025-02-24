@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Hunting Camp",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"production": 1,
 		"terrainsCanBeBuiltOn": [
 			"Land"
@@ -9,12 +9,13 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"[+1 Production] <with [1] to [9] neighboring [Tundra] tiles> <after discovering [Trapping]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		]
 	},
 	{
 		"name": "Gathering Camp",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"food": 1,
 		"terrainsCanBeBuiltOn": [
 			"Land"
@@ -22,7 +23,63 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"[+1 Production] <with [1] to [9] neighboring [Forest] tiles> <after discovering [Herbalism]>",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		]
+	},
+	{
+		"name": "Mine",
+		"turnsToBuild": 5,
+		"production": 2,
+		"techRequired": "Mining",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"uniques": [
+			"[+1 Production] <with [1] to [9] neighboring [Mountain] tiles>",
+			"[+1 Production] <after discovering [Terracing]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+	{
+		"name": "Terrace",
+		"turnsToBuild": 5,
+		"food": 3,
+		"techRequired": "Terracing",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"uniques": [
+			"[+1 Food] <with [1] to [9] neighboring [Mountain] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+	{
+		"name": "Irrigation",
+		"turnsToBuild": 5,
+		"food": 2,
+		"techRequired": "Farming",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains"
+		],
+		"uniques": [
+			"[+1 Food] <with [1] to [9] neighboring [Fresh water] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+	{
+		"name": "Fishing Boats",
+		"food": 3,
+		"techRequired": "Fishing",
+		"terrainsCanBeBuiltOn": [
+			"Coast"
+		],
+		"uniques": [
+			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
+		"shortcutKey": "F"
 	}
 ]

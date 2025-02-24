@@ -10,6 +10,16 @@
 		]
 	},
 	{
+		"name": "Civilian Water",
+		"movementType": "Land",
+		"uniques": [
+			"Unable to capture cities",
+			"Cannot attack",
+			"[+4] Sight",
+			"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+		]
+	},
+	{
 		"name": "Melee",
 		"movementType": "Land",
 		"uniques": [

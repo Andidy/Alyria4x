@@ -30,6 +30,135 @@
 					{
 						"text": "Requires flint knapping...",
 						"link": "Technologies/Stone Age"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Trapping",
+				"row": 3,
+				"prerequisites": [
+					"Flint knapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires flint knapping...",
+						"link": "Technologies/Stone Age"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Farming",
+				"row": 5,
+				"prerequisites": [
+					"Flint knapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires flint knapping...",
+						"link": "Technologies/Stone Age"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Pottery",
+				"row": 7,
+				"prerequisites": [
+					"Flint knapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires flint knapping...",
+						"link": "Technologies/Stone Age"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Mining",
+				"row": 9,
+				"prerequisites": [
+					"Flint knapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires flint knapping...",
+						"link": "Technologies/Stone Age"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Stone Age",
+		"techCost": 50,
+		"techs": [
+			{
+				"name": "Irrigation",
+				"row": 2,
+				"prerequisites": [
+					"Farming"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires irrigation...",
+						"link": "Technologies/Irrigation"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Herbalism",
+				"row": 4,
+				"prerequisites": [
+					"Flint knapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires flint knapping...",
+						"link": "Technologies/Stone Age"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Terracing",
+				"row": 6,
+				"prerequisites": [
+					"Mining"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires mining...",
+						"link": "Technologies/Mining"
+					},
+					{
+						"text": "Here be Kira writing"
 					}
 				]
 			}
