@@ -107,6 +107,27 @@
 		]
 	},
 	{
+		"columnNumber": 1,
+		"era": "Stone Age",
+		"techCost": 50000,
+		"techs": [
+			{
+				"name": "Elven Lore",
+				"row": 11,
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires irrigation...",
+						"link": "Technologies/Irrigation"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			}
+		]
+	},
+	{
 		"columnNumber": 2,
 		"era": "Stone Age",
 		"techCost": 50,
