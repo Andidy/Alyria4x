@@ -23,6 +23,18 @@
 		]
 	},
 	{
+		"name": "Farmhand",
+		"unitType": "Semi-Civilian",
+		"strength": 5,
+		"movement": 8,
+		"cost": 30,
+		"uniques": [
+			"Can instantly construct a [All] improvement <by consuming this unit>",
+			"Automation is a primary action",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 10,
