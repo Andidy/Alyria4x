@@ -37,7 +37,6 @@
 		],
 		"uniques": [
 			"[+1 Production] <with [1] to [9] neighboring [Mountain] tiles>",
-			"[+1 Production] <after discovering [Terracing]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
 	},
@@ -51,6 +50,8 @@
 		],
 		"uniques": [
 			"[+1 Food] <with [1] to [9] neighboring [Mountain] tiles>",
+			"[+1 Food] <with [1] to [9] neighboring [Fresh water] tiles>",
+			"[+1 Food] <after discovering [Irrigation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
 	},
@@ -69,6 +70,21 @@
 			"[+1 Food] <with [1] to [9] neighboring [Fresh water] tiles>",
 			"[+1 Food] <after discovering [Irrigation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+	{
+		"name": "Irrigation",
+		"turnsToBuild": 5,
+		"food": 5,
+		"techRequired": "Irrigation",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Flood plains"
+		],
+		"uniques": [
+			"Can only be built on [Farm] tiles",
+			"[+1 Food] <with [1] to [9] neighboring [Fresh water] tiles>",
+			"Pillaging this improvement yields approximately [+15 Gold]"
 		]
 	},
 	{

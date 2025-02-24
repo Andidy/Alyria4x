@@ -28,8 +28,9 @@
 		"strength": 5,
 		"movement": 10,
 		"cost": 30,
+		"requiredTech": "Farming",
 		"uniques": [
-			"Can instantly construct a [All] improvement <by consuming this unit>",
+			"Can instantly construct a [Farm] improvement <by consuming this unit>",
 			"Automation is a primary action",
 			"Never appears as a Barbarian unit"
 		]
@@ -73,5 +74,26 @@
 		"rangedStrength": 5,
 		"cost": 30,
 		"attackSound": "shot"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Ranged",
+		"strength": 10,
+		"movement": 5,
+		"range": 2,
+		"cost": 50,
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Stalker",
+		"unitType": "Ranged",
+		"strength": 10,
+		"movement": 5,
+		"range": 2,
+		"cost": 50,
+		"requiredTech": "Elven archery",
+		"uniques": [
+			"Invisible to non-adjacent units"
+		]
 	}
 ]

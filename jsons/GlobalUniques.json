@@ -2,6 +2,7 @@
 	"name": "Global uniques",
 	"uniques": [
 		"[+5 Gold, +5 Science]",
-		"Provides [3] [Health]"
+		"Provides [3] [Health]",
+		"[-1 Science] per [1] population [in all cities]"
 	]
 }

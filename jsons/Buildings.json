@@ -16,7 +16,10 @@
 		"name": "Communal Fire",
 		"cost": 10,
 		"maintenance": 1,
-		"culture": 2
+		"culture": 2,
+		"uniques": [
+			"Can be purchased for [3] [Culture] [in all cities]"
+		]
 	},
 	{
 		"name": "Palace",
@@ -30,6 +33,17 @@
 			"Indicates the capital city",
 			"Moves to new capital when capital changes",
 			"Unsellable"
+		]
+	},
+	{
+		"name": "Stonehenge",
+		"cost": 100,
+		"faith": 8,
+		"maintenance": 0,
+		"isWonder": true,
+		"uniques": [
+			"Unsellable",
+			"Discover [Druidic Lore]"
 		]
 	},
 	{

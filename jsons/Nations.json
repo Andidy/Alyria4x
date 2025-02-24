@@ -1,24 +1,24 @@
 [
 	{
 		"name": "Elhofane, The Secret Grove",
-		"leaderName": "The Leaflet",
+		"leaderName": "Sírwa, The Quiet Leaflet",
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "Here be Kira writing",
 		"startIntroPart2": "Here be Kira writing",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You dare have the courage to challenge nod, but no fear, for I will sweep you out of history.",
-		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
-		"introduction": "If I am cut, Do I not bleed?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+		"declaringWar": "Here be Kira writing",
+		"attacked": "Here be Kira writing",
+		"defeated": "Here be Kira writing",
+		"introduction": "Here be Kira writing",
+		"tradeRequest": "Here be Kira writing",
 		"outerColor": [
 			0,
 			0,
 			0
 		],
 		"innerColor": [
-			142,
-			22,
-			0
+			64,
+			224,
+			128
 		],
 		"uniqueName": "Sacred One's Blessings",
 		"uniques": [
@@ -26,24 +26,7 @@
 			"[+2] Movement <for [Melee] units>"
 		],
 		"cities": [
-			"Madrid",
-			"Frooaross",
-			"Hraun",
-			"Geirhildarvatn",
-			"Dumbshaf",
-			"Leioolfsstaoir",
-			"Hraunsass",
-			"Mosfell",
-			"Geirmundarstaoir",
-			"Holmgaror",
-			"Selaeyrr",
-			"Horga",
-			"Fellshverfi",
-			"Kalfborgara",
-			"Reykir inir efri",
-			"Bolstaor",
-			"Beruvikrhraun",
-			"Berghylr",
+			"Wahtya",
 			"Rauosgil"
 		]
 	},

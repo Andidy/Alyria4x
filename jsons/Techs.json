@@ -55,7 +55,7 @@
 			},
 			{
 				"name": "Farming",
-				"row": 5,
+				"row": 6,
 				"prerequisites": [
 					"Flint knapping"
 				],
@@ -89,7 +89,7 @@
 			},
 			{
 				"name": "Mining",
-				"row": 9,
+				"row": 11,
 				"prerequisites": [
 					"Flint knapping"
 				],
@@ -106,20 +106,57 @@
 			}
 		]
 	},
+	// LORE TECHS
 	{
-		"columnNumber": 1,
+		"columnNumber": 0,
 		"era": "Stone Age",
 		"techCost": 50000,
 		"techs": [
 			{
 				"name": "Elven Lore",
-				"row": 11,
+				"row": 20,
 				"quote": "Here be Kira writing",
 				"civilopediaText": [
 					{
-						"text": "Requires irrigation...",
-						"link": "Technologies/Irrigation"
-					},
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Druidic Lore",
+				"row": 25,
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Blood Lore",
+				"row": 30,
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Runic Lore",
+				"row": 35,
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Draconic Lore",
+				"row": 40,
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
 					{
 						"text": "Here be Kira writing"
 					}
@@ -133,16 +170,16 @@
 		"techCost": 50,
 		"techs": [
 			{
-				"name": "Irrigation",
-				"row": 2,
+				"name": "Sailing",
+				"row": 1,
 				"prerequisites": [
-					"Farming"
+					"Fishing"
 				],
 				"quote": "Here be Kira writing",
 				"civilopediaText": [
 					{
-						"text": "Requires irrigation...",
-						"link": "Technologies/Irrigation"
+						"text": "Requires fishing...",
+						"link": "Technologies/Fishing"
 					},
 					{
 						"text": "Here be Kira writing"
@@ -167,8 +204,89 @@
 				]
 			},
 			{
-				"name": "Terracing",
+				"name": "Astrology",
+				"row": 5,
+				"prerequisites": [
+					"Flint knapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires flint knapping...",
+						"link": "Technologies/Flint knapping"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Irrigation",
 				"row": 6,
+				"prerequisites": [
+					"Farming"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires irrigation...",
+						"link": "Technologies/Irrigation"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Terracing",
+				"row": 9,
+				"prerequisites": [
+					"Mining"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires mining...",
+						"link": "Technologies/Mining"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Elven archery",
+				"row": 20,
+				"prerequisites": [
+					"Elven Lore",
+					"Trapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires elven lore...",
+						"link": "Technologies/Elven Lore"
+					},
+					{
+						"text": "Requires trapping...",
+						"link": "Technologies/Trapping"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			}
+		]
+	},
+	// ANTIQUITY
+	{
+		"columnNumber": 4,
+		"era": "Antiquity",
+		"techCost": 100,
+		"techs": [
+			{
+				"name": "Copper working",
+				"row": 11,
 				"prerequisites": [
 					"Mining"
 				],

@@ -17,6 +17,25 @@
 		],
 		"food": 1
 	},
+	// STOCKPILES
+	{
+		"name": "Stone",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Wood",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
 	// CITY LEVEL RESOURCES
 	{
 		"name": "Health",
