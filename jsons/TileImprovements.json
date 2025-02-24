@@ -28,6 +28,18 @@
 		]
 	},
 	{
+		"name": "Hazel Forestry",
+		"turnsToBuild": 3,
+		"food": 5,
+		"terrainsCanBeBuiltOn": [
+			"Forest"
+		],
+		"techRequired": "Hazel domestication",
+		"uniques": [
+			"Does not need removal of [Forest]"
+		]
+	},
+	{
 		"name": "Mine",
 		"turnsToBuild": 5,
 		"production": 2,

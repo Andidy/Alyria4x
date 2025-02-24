@@ -302,7 +302,20 @@
 						"text": "Here be Kira writing"
 					}
 				]
-			}
+			},
+			{
+				"name": "Blood hunting",
+				"row": 30,
+				"prerequisites": [
+					"Blood Lore"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
 		]
 	},
 	// ANTIQUITY

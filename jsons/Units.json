@@ -48,6 +48,16 @@
 			"Cannot enter ocean tiles"
 		]
 	},
+	{
+		"name": "Blood slave",
+		"unitType": "Civilian",
+		"movement": 5,
+		"cost": 0,
+		"requiredTech": "Blood hunting",
+		"uniques": [
+			"Can instantly construct a [All] improvement <by consuming this unit>"
+		]
+	},
 	// Military
 	{
 		"name": "Brute",
@@ -65,6 +75,20 @@
 		"cost": 30,
 		"attackSound": "shot"
 	},
+	{
+		"name": "Slaver",
+		"unitType": "Melee",
+		"strength": 10,
+		"movement": 5,
+		"cost": 50,
+		"requiredTech": "Blood hunting",
+		"uniques": [
+			"Unable to capture cities",
+			"No movement cost to pillage",
+			"Free [Blood slave] appears <upon defeating a [All] unit>"
+		]
+	},
+	// Ranged
 	{
 		"name": "Rockthrower",
 		"unitType": "Ranged",
@@ -84,7 +108,6 @@
 		"cost": 50,
 		"requiredTech": "Trapping"
 	},
-	// Ranged
 	{
 		"name": "Stalker",
 		"unitType": "Ranged",
