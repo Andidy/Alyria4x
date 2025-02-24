@@ -48,7 +48,7 @@
 		]
 	},
 	{
-		"name": "The New Movement",
+		"name": "Rum, The Resplendant City",
 		"leaderName": "Anton Slavik",
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "Sample text.",
@@ -73,11 +73,11 @@
 			"No damage penalty for wounded units <for [non-air] units>"
 		],
 		"cities": [
-			"Ketilsstaoir",
-			"Frooaross",
-			"Hraun",
-			"Geirhildarvatn",
-			"Dumbshaf",
+			"Rum",
+			"Meron",
+			"Dullus",
+			"Daeraum",
+			"Voldinum",
 			"Leioolfsstaoir",
 			"Hraunsass",
 			"Mosfell",

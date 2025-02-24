@@ -26,7 +26,7 @@
 		"name": "Farmhand",
 		"unitType": "Semi-Civilian",
 		"strength": 5,
-		"movement": 8,
+		"movement": 10,
 		"cost": 30,
 		"uniques": [
 			"Can instantly construct a [All] improvement <by consuming this unit>",
@@ -49,7 +49,7 @@
 	},
 	// Military
 	{
-		"name": "Warrior",
+		"name": "Brute",
 		"unitType": "Melee",
 		"movement": 5,
 		"strength": 10,
