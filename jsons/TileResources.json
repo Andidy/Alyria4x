@@ -50,6 +50,18 @@
 			"[+3 Food] from [Hunting camp] tiles [in all cities]"
 		]
 	},
+	{
+		"name": "Wolves",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Forest"
+		],
+		"food": 1,
+		"uniques": [
+			"[+1 Culture] from [Hunting camp] tiles [in all cities]"
+			// i wanna do something more interesting than this but not sure what
+		]
+	},
 	// MINES
 	{
 		"name": "Salt",
