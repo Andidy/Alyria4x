@@ -73,7 +73,7 @@
 		"gold": 1,
 		"uniques": [
 			"[+2 Food] from [Mine] tiles [in all cities]",
-			"Provides [+1] [Stone] <in [Mine] tiles>"
+			"Provides [+10] [Construction Materials] <in [Mine] tiles>"
 		]
 	},
 	// STOCKPILES
@@ -87,7 +87,7 @@
 		]
 	},
 	{
-		"name": "Stone",
+		"name": "Construction Materials",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",
@@ -96,16 +96,7 @@
 		]
 	},
 	{
-		"name": "Lumber",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
-	{
-		"name": "Timber",
+		"name": "Wood",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",

@@ -1,19 +1,26 @@
 
 game.png
-size: 1024, 1024
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Rampart
+  rotate: false
+  xy: 4, 732
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 NationIcons/Adelle Corp
   rotate: false
-  xy: 212, 312
+  xy: 524, 936
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Health
   rotate: false
-  xy: 212, 312
+  xy: 524, 936
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -25,23 +32,37 @@ NationIcons/The New Movement
   orig: 200, 200
   offset: 0, 0
   index: -1
+ResourceIcons/Construction Materials
+  rotate: false
+  xy: 4, 1252
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 ResourceIcons/Supplies
   rotate: false
-  xy: 4, 420
+  xy: 524, 1252
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ResourceIcons/Wood
+  rotate: false
+  xy: 4, 212
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/Infantry
   rotate: false
-  xy: 4, 212
+  xy: 524, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Settler
   rotate: false
-  xy: 524, 732
+  xy: 1044, 1564
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

@@ -22,15 +22,17 @@
 		"production": 1000,
 		"faith": 1000,
 		"uniques": [
-			"Reveals the entire map",
-			"Provides [-10] [Stone]"
+			"Reveals the entire map"
 		]
 	},
 	{
 		"name": "Shrine",
 		"cost": 20,
 		"maintenance": 1,
-		"faith": 2
+		"faith": 2,
+		"uniques": [
+			"Costs [10] [Construction Materials]"
+		]
 	},
 	{
 		"name": "Communal Fire",
@@ -38,6 +40,7 @@
 		"maintenance": 1,
 		"culture": 2,
 		"uniques": [
+			"Costs [10] [Construction Materials]"
 			// Just for debugging, kekw
 			// "Can be purchased for [3] [Culture] [in all cities]"
 		]
@@ -47,6 +50,7 @@
 		"cost": 20,
 		"maintenance": 3,
 		"uniques": [
+			"Costs [10] [Construction Materials]",
 			"Provides [3] [Supplies]"
 		]
 	},
@@ -60,9 +64,13 @@
 		"cityStrength": 50,
 		"uniques": [
 			"Provides [5] [Supplies]",
+			"Provides [10] [Construction Materials]",
 			"Indicates the capital city",
 			"Moves to new capital when capital changes",
-			"Unsellable"
+			"Unsellable",
+			// STARTING RESOURCES
+			"Instantly provides [25] [Supplies]",
+			"Instantly provides [25] [Construction Materials]"
 		]
 	},
 	{

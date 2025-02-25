@@ -23,7 +23,22 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"Provides [1] [Wood]",
 			"[+1 Food] <with [1] to [9] neighboring [Forest] tiles> <after discovering [Herbalism]>",
+			"Pillaging this improvement yields approximately [+5 Gold]"
+		]
+	},
+	{
+		"name": "Logging Camp",
+		"turnsToBuild": 3,
+		"food": -3,
+		"terrainsCanBeBuiltOn": [
+			"Forest"
+		],
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Provides [5] [Wood]",
 			"Pillaging this improvement yields approximately [+5 Gold]"
 		]
 	},
@@ -36,6 +51,7 @@
 		],
 		"techRequired": "Hazel domestication",
 		"uniques": [
+			"Provides [1] [Wood]",
 			"Does not need removal of [Forest]"
 		]
 	},
