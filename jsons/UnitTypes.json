@@ -45,6 +45,14 @@
 		]
 	},
 	{
+		"name": "Mounted",
+		"movementType": "Land",
+		"uniques": [
+			"[+4] Sight",
+			"[This Unit] heals [25] HP <upon being promoted> <hidden from users>"
+		]
+	},
+	{
 		"name": "Ranged",
 		"movementType": "Land",
 		"uniques": [
