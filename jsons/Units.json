@@ -10,10 +10,11 @@
 			"Cannot attack",
 			"Unable to capture cities",
 			"Unable to pillage tiles",
-			"Only available",
 			"Founds a new city <by consuming this unit>",
 			"Requires at least [2] population",
 			"Never appears as a Barbarian unit",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -24,9 +25,10 @@
 		"cost": 10,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Only available",
 			"Automation is a primary action",
 			"Never appears as a Barbarian unit",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -39,9 +41,10 @@
 		"requiredTech": "Farming",
 		"uniques": [
 			"Can instantly construct a [Farm] improvement <by consuming this unit>",
-			"Only available",
 			"Automation is a primary action",
 			"Never appears as a Barbarian unit",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -54,9 +57,10 @@
 		"uniques": [
 			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",
 			"Never appears as a Barbarian unit",
-			"Only available",
 			"Cannot attack",
 			"Cannot enter ocean tiles",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -68,6 +72,8 @@
 		"requiredTech": "Blood hunting",
 		"uniques": [
 			"Can instantly construct a [All] improvement <by consuming this unit>",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -80,6 +86,8 @@
 		"cost": 30,
 		"attackSound": "shot",
 		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -91,6 +99,8 @@
 		"cost": 30,
 		"attackSound": "shot",
 		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -105,6 +115,8 @@
 			"Unable to capture cities",
 			"No movement cost to pillage",
 			"Free [Blood slave] appears <upon defeating a [All] unit>",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -119,6 +131,8 @@
 		"cost": 30,
 		"attackSound": "shot",
 		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -132,6 +146,8 @@
 		"cost": 50,
 		"requiredTech": "Trapping",
 		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -146,6 +162,8 @@
 		"requiredTech": "Elven archery",
 		"uniques": [
 			"Invisible to non-adjacent units",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	},
@@ -160,6 +178,8 @@
 		"uniques": [
 			"Never appears as a Barbarian unit",
 			"Cannot enter ocean tiles",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
 			"Consumes [1] [Supplies]"
 		]
 	}
