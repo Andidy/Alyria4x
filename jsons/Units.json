@@ -4,11 +4,18 @@
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 5,
+		"strength": 5,
 		"cost": 100,
 		"uniques": [
+			"Cannot attack",
+			"Unable to capture cities",
+			"Unable to pillage tiles",
 			"Founds a new city <by consuming this unit>",
 			"Requires at least [2] population",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
 		]
 	},
 	{
@@ -17,9 +24,12 @@
 		"movement": 5,
 		"cost": 10,
 		"uniques": [
-			"Can instantly construct a [All] improvement <by consuming this unit>",
+			"Can build [Land] improvements on tiles",
 			"Automation is a primary action",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
 		]
 	},
 	{
@@ -32,20 +42,26 @@
 		"uniques": [
 			"Can instantly construct a [Farm] improvement <by consuming this unit>",
 			"Automation is a primary action",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
 		]
 	},
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 10,
-		"cost": 10,
+		"cost": 5,
 		"requiredTech": "Fishing",
 		"uniques": [
 			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",
 			"Never appears as a Barbarian unit",
 			"Cannot attack",
-			"Cannot enter ocean tiles"
+			"Cannot enter ocean tiles",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
 		]
 	},
 	{
@@ -55,7 +71,10 @@
 		"cost": 0,
 		"requiredTech": "Blood hunting",
 		"uniques": [
-			"Can instantly construct a [All] improvement <by consuming this unit>"
+			"Can instantly construct a [All] improvement <by consuming this unit>",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
 		]
 	},
 	// Military
@@ -65,7 +84,12 @@
 		"movement": 5,
 		"strength": 10,
 		"cost": 30,
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
+		]
 	},
 	{
 		"name": "Scout",
@@ -73,7 +97,12 @@
 		"movement": 10,
 		"strength": 5,
 		"cost": 30,
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
+		]
 	},
 	{
 		"name": "Slaver",
@@ -85,7 +114,10 @@
 		"uniques": [
 			"Unable to capture cities",
 			"No movement cost to pillage",
-			"Free [Blood slave] appears <upon defeating a [All] unit>"
+			"Free [Blood slave] appears <upon defeating a [All] unit>",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
 		]
 	},
 //	{
@@ -123,30 +155,47 @@
 		"unitType": "Ranged",
 		"movement": 5,
 		"strength": 5,
-		"range": 2,
 		"rangedStrength": 5,
+		"range": 2,
 		"cost": 30,
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]"
+		]
 	},
 	{
 		"name": "Archer",
 		"unitType": "Ranged",
-		"strength": 10,
+		"strength": 5,
+		"rangedStrength": 10,
 		"movement": 5,
 		"range": 2,
 		"cost": 50,
-		"requiredTech": "Trapping"
+		"requiredTech": "Trapping",
+		"uniques": [
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]",
+			"Consumes [2] [Wood]"
+		]
 	},
 	{
 		"name": "Stalker",
 		"unitType": "Ranged",
-		"strength": 10,
+		"strength": 5,
 		"movement": 5,
 		"range": 2,
+		"rangedStrength": 10,
 		"cost": 50,
 		"requiredTech": "Elven archery",
 		"uniques": [
-			"Invisible to non-adjacent units"
+			"Invisible to non-adjacent units",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]",
+			"Consumes [2] [Wood]"
 		]
 	},
 	// Navy
@@ -159,7 +208,11 @@
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Never appears as a Barbarian unit",
-			"Cannot enter ocean tiles"
+			"Cannot enter ocean tiles",
+			// SHARED
+			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
+			"Consumes [1] [Supplies]",
+			"Consumes [3] [Wood]"
 		]
 	}
 ]

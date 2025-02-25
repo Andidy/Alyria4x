@@ -73,13 +73,22 @@
 		"gold": 1,
 		"uniques": [
 			"[+2 Food] from [Mine] tiles [in all cities]",
-			"Provides [+1] [Stone] <in [Mine] tiles>"
+			"Provides [+10] [Construction Materials] <in [Mine] tiles>"
 		]
 	},
 	// STOCKPILES
 	{
-		"name": "Stone",
-		"resourceType": "Bonus",
+		"name": "Supplies",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Construction Materials",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",
 			"Stockpiled",
@@ -88,7 +97,7 @@
 	},
 	{
 		"name": "Wood",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",
 			"Stockpiled",
@@ -98,7 +107,7 @@
 	// CITY LEVEL RESOURCES
 	{
 		"name": "Health",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Cannot be traded",
 			"Doesn't generate naturally",
