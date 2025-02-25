@@ -78,8 +78,8 @@
 	},
 	// STOCKPILES
 	{
-		"name": "Stone",
-		"resourceType": "Bonus",
+		"name": "Supplies",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",
 			"Stockpiled",
@@ -87,8 +87,26 @@
 		]
 	},
 	{
-		"name": "Wood",
-		"resourceType": "Bonus",
+		"name": "Stone",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Lumber",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Timber",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",
 			"Stockpiled",
@@ -98,7 +116,7 @@
 	// CITY LEVEL RESOURCES
 	{
 		"name": "Health",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Cannot be traded",
 			"Doesn't generate naturally",

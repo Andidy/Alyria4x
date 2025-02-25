@@ -1,40 +1,47 @@
 
 game.png
-size: 1024, 256
+size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Adelle Corp
   rotate: false
-  xy: 628, 104
+  xy: 212, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Health
   rotate: false
-  xy: 628, 104
+  xy: 212, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The New Movement
   rotate: false
-  xy: 420, 4
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+ResourceIcons/Supplies
+  rotate: false
+  xy: 4, 420
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/Infantry
   rotate: false
-  xy: 4, 4
+  xy: 4, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Settler
   rotate: false
-  xy: 212, 4
+  xy: 524, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

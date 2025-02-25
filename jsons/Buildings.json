@@ -1,11 +1,30 @@
 [
+	// DECISIONS
+	{
+		"name": "Decision",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Comment [Magic debug decision!]",
+			"Triggers a [Debug Event] event <hidden from users>",
+			"Can be purchased for [10] [Culture] [in all cities] <hidden from users>",
+			"Remove [Decision] [in this city] <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Only available <in [in capital] cities>"
+		]
+	},
+	// BUILDINGS
 	{
 		"name": "CHEAT",
 		"cost": 0,
 		"maintenance": 1,
 		"food": 1000,
 		"production": 1000,
-		"faith": 1000
+		"faith": 1000,
+		"uniques": [
+			"Reveals the entire map",
+			"Provides [-10] [Stone]"
+		]
 	},
 	{
 		"name": "Shrine",
@@ -24,6 +43,14 @@
 		]
 	},
 	{
+		"name": "Crafter's Hut",
+		"cost": 20,
+		"maintenance": 3,
+		"uniques": [
+			"Provides [3] [Supplies]"
+		]
+	},
+	{
 		"name": "Palace",
 		"cost": 1,
 		"food": 2,
@@ -32,6 +59,7 @@
 		"isNationalWonder": true,
 		"cityStrength": 50,
 		"uniques": [
+			"Provides [5] [Supplies]",
 			"Indicates the capital city",
 			"Moves to new capital when capital changes",
 			"Unsellable"

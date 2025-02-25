@@ -1,0 +1,24 @@
+[
+	{
+		"name": "Debug Event",
+		"text": "This is a debug event!",
+		"presentation": "Alert",
+		"civilopediaText": [],
+		"choices": [
+			{
+				"text": "I will now kill a LOT of my pops!",
+				"uniques": [
+					"[-10] population [in your cities]"
+				]
+			},
+			{
+				"text": "Killing people is bad and I shan't do it!",
+				"uniques": []
+			}
+		],
+		"uniques": [
+			// "Free [Worker] appears",
+			// "Only available <for [Elhofane, The Secret Grove] Civilizations>"
+		]
+	}
+]

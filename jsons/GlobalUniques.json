@@ -3,6 +3,9 @@
 	"uniques": [
 		"[+5 Gold, +10 Science]",
 		"Provides [3] [Health]",
-		"[-1 Science] per [1] population [in all cities]"
+		"[-1 Science] per [1] population [in all cities]",
+		// This basically lets me run code every turn uwu
+		// "Triggers a [Debug Event] event <upon turn start>"
+		// "Triggers a [Shortage of Stone] event <upon turn start>"
 	]
 }
