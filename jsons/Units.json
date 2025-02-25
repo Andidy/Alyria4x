@@ -88,6 +88,35 @@
 			"Free [Blood slave] appears <upon defeating a [All] unit>"
 		]
 	},
+//	{
+//		"name": "Horseman",
+//		"unitType": "Mounted",
+//		"movement": 4,
+//		"strength": 12,
+//		"cost": 75,
+//		"requiredTech": "Horseback Riding",
+//		"requiredResource": "Horses",
+//		"upgradesTo": "Knight",
+//		"obsoleteTech": "Chivalry",
+//		"uniques": [ ],
+//		"hurryCostModifier": 20,
+//		"attackSound": "horse"
+//	},
+	{
+		"name": "Wolfrider",
+		"unitType": "Mounted",
+		"strength": 10,
+		"movement": 10,
+		"cost": 50,
+		"requiredTech": "Animal Husbandry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
+			"Free [Blood slave] appears <upon defeating a [All] unit> <after discovering [Blood Lore]>"
+		]
+	},
 	// Ranged
 	{
 		"name": "Rockthrower",

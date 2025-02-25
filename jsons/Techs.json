@@ -189,6 +189,16 @@
 					}
 				]
 			},
+			{
+				"name": "Bunny Lore",
+				"row": 50,
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
 		]
 	},
 	{
@@ -207,6 +217,23 @@
 					{
 						"text": "Requires fishing...",
 						"link": "Technologies/Fishing"
+					},
+					{
+						"text": "Here be Kira writing"
+					}
+				]
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 3,
+				"prerequisites": [
+					"Trapping"
+				],
+				"quote": "Here be Kira writing",
+				"civilopediaText": [
+					{
+						"text": "Requires trapping...",
+						"link": "Technologies/Trapping"
 					},
 					{
 						"text": "Here be Kira writing"
