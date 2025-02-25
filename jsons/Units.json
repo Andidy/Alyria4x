@@ -148,7 +148,8 @@
 		"uniques": [
 			// SHARED
 			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
-			"Consumes [1] [Supplies]"
+			"Consumes [1] [Supplies]",
+			"Consumes [2] [Wood]"
 		]
 	},
 	{
@@ -164,7 +165,8 @@
 			"Invisible to non-adjacent units",
 			// SHARED
 			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
-			"Consumes [1] [Supplies]"
+			"Consumes [1] [Supplies]",
+			"Consumes [2] [Wood]"
 		]
 	},
 	// Navy
@@ -180,7 +182,8 @@
 			"Cannot enter ocean tiles",
 			// SHARED
 			"[This Unit] takes [3] damage <upon ending a turn in a [All] tile> <when below [0] [Supplies]>",
-			"Consumes [1] [Supplies]"
+			"Consumes [1] [Supplies]",
+			"Consumes [3] [Wood]"
 		]
 	}
 ]
